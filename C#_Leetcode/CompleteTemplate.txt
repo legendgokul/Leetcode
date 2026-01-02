@@ -1,0 +1,38 @@
+/*
+==========================================================
+
+==========================================================
+*/
+
+// Replacement Function.
+int[] Dummy(int[] digits) {
+        
+  return digits;
+}
+
+void Print<T>(IEnumerable<T> data)
+{
+    Console.WriteLine(string.Join(", ", data));
+}
+
+void Print<T>(T data)
+{
+    Console.WriteLine(data);
+}
+
+
+// ----------------------------------------------
+var problemName = "66.Plus One";
+Console.WriteLine($"Leetcode : {problemName}");
+
+
+// ----------------------------------------------
+// Input Declaration
+int[] nums = { 9 };
+
+var result = PlusOne(nums);
+
+Console.WriteLine("Result:");
+Print(result);
+
+
